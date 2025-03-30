@@ -1,0 +1,22 @@
+# общие файлыs
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log
+node_modules/
+
+# frontend
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.env.local
+frontend/node_modules/
+
+# backend
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/db.sqlite3
+backend/.env
